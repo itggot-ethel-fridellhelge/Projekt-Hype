@@ -79,7 +79,6 @@ a{
   margin-top: 20px;
   display: flex;
   flex-direction: row;
-
 }
 
 .welcomebox{
@@ -87,8 +86,8 @@ a{
   flex-direction: column;
   flex-grow: 1;
   background-color: #DAF7DC;
-  width: 400px;
-  margin-right: 5px;
+  width: 500px;
+  margin-right: 10px;
 }
 
 .button {
@@ -96,12 +95,13 @@ a{
   background-color: #DAF7DC;
   border: none;
   color: #01161E;
-  text-align: center;
+  text-align: left;
   font-size: 28px;
-  padding: 20px;
+  padding: 30px;
   width: 100%;
   transition: all 0.5s;
   cursor: pointer;
+
 }
 
 .button span {
@@ -131,7 +131,8 @@ a{
   flex-grow: 5;
   flex-direction: column;
   background-color: #DAF7DC;
-  margin-left: 5px;
+  margin-left: 10px;
+  justify-content: center;
 }
 
 p{
@@ -140,7 +141,25 @@ p{
   font-family: roboto;
 }
 
-h1{
+h2{
   margin-left: 10px;
+  font-family: roboto;
+  margin-bottom: 0px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color: #DAF7DC;
+  color: black;
+  font-family: roboto;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-content: center;
+
+}
+
+.footersak{
+  font-size: 15px;
   font-family: roboto;
 }
