@@ -1,3 +1,4 @@
+/*--------------------Bakgrund nedanför-----------------------------*/
 body{
   margin: 0;
   padding: 0;
@@ -6,7 +7,9 @@ body{
   align-items: center;
   background-color: #2F4858;
 }
+/*--------------------Bakgrund slut----------------------------------*/
 
+/*--------------------Loga nedanför---------------------------------*/
 .container1{
   display: flex;
   flex-direction: column;
@@ -26,6 +29,9 @@ header{
   padding-bottom: 0;
   height: 300px;
 }
+/*--------------------Loga slut--------------------------------------*/
+
+/*--------------------Sidnavigation nedanför-------------------------*/
 
 nav{
   display: flex;
@@ -61,6 +67,10 @@ a{
   font-size: 25px;
   font-family: roboto;
 }
+
+/*--------------------Sidnavigation slut-------------------------*/
+
+/*--------------------Självaste innehållet nedanför--------------*/
 
 .container2{
   display: flex;
@@ -135,6 +145,11 @@ a{
   justify-content: center;
 }
 
+.randombox{
+  background-color: #DAF7DC;
+  margin-top: 20px;
+}
+
 p{
   margin-left: 10px;
   margin-right: 10px;
@@ -146,6 +161,9 @@ h2{
   font-family: roboto;
   margin-bottom: 0px;
 }
+/*--------------------Självaste innehållet slut---------------*/
+
+/*--------------------Footer nedanför-------------------------*/
 
 footer{
   display: flex;
@@ -156,10 +174,33 @@ footer{
   margin-top: 20px;
   justify-content: space-between;
   align-content: center;
-
+  align-items: center;
 }
 
 .footersak{
   font-size: 15px;
   font-family: roboto;
+  margin-right: 10px;
+}
+
+/*--------------------Footer slut-------------------------*/
+
+/*------------Tillägg för andra sidor nedanför------------*/
+
+/*-----------------------Nyheter html---------------------*/
+.maininfo{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #DAF7DC;
+  margin-right: 10px;
+}
+
+.shortinfo{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #DAF7DC;
+  margin-right: 10px;
+  margin-top: 20px;
 }
